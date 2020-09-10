@@ -1,0 +1,3 @@
+ls /tmp  列出tmp内的文件
+ls -a /tmp  列出tmp内包括隐藏文件的文件
+ls -l /tmp  列出tmp内文件的详细信息
