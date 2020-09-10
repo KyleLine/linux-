@@ -1,3 +1,20 @@
+目录：文件夹，用dir表示
+文件：用file表示
+
+pwd    列出当前所在位置
+cd     进入个人主目录
+cd ~   进入个人主目录
+cd xx  进入当前文件夹下的xx文件
+cd ..  返回上一级位置
 mkdir dir1 创建一个叫做 ‘dir1′ 的目录’
 mkdir dir1 dir2 同时创建两个目录
 mkdir -p /tmp/dir1/dir2 递归创建目录dir1和dir2
+cp -a dir1 dir2 把目录dir1复制为目录dir2
+cp file1 file2  把文件file1复制为文件file2
+cp -a /tmp/dir1 . 复制一个目录到当前工作目录(注意那个“.”)
+rm -f file1
+rm -rf dir1 删除一个叫做 ‘dir1’ 的目录并同时删除其内容
+rm -rf dir1 dir2 同时删除两个目录及它们的内容
+mv aaa bbb  在当前工作目录中，把文件/目录aaa改为bbb
+mv dir1 /tmp/dir2 把目录dir1剪切到tmp下，如果目录dir2不存在，则dir1被改名为dir2
+mv /tmp/dir1 . 把tmp下的目录dir1剪切到当前目录
