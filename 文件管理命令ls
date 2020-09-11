@@ -1,3 +1,4 @@
 ls /tmp  列出tmp内的文件
 ls -a /tmp  列出tmp内包括隐藏文件的文件
 ls -l /tmp  列出tmp内文件的详细信息
+ls -h /tmp  友好地列出tmp内文件的信息，比如大小显示K,M,G
