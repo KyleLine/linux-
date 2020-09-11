@@ -12,7 +12,7 @@ mkdir -p /tmp/dir1/dir2 递归创建目录dir1和dir2
 cp -a dir1 dir2 把目录dir1复制为目录dir2
 cp file1 file2  把文件file1复制为文件file2
 cp -a /tmp/dir1 . 复制一个目录到当前工作目录(注意那个“.”)
-rm -f file1
+rm -f file1 删除文件file1
 rm -rf dir1 删除一个叫做 ‘dir1’ 的目录并同时删除其内容
 rm -rf dir1 dir2 同时删除两个目录及它们的内容
 mv aaa bbb  在当前工作目录中，把文件/目录aaa改为bbb
