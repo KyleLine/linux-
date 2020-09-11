@@ -1,0 +1,8 @@
+touch file 创建“file”文件
+cat file 浏览“file”文件内容
+cat -n file 浏览“file”文件内容且前面加行号
+tac file 反向浏览file文件
+more file 浏览file文件，enter键切行，空格键翻页(不可上翻)
+less file 浏览file文件,pageup上翻页，pagedown下翻页，上下方向键切行；'/'+'字符名'用来搜索字符，同时按n切换
+head -n file 浏览file文件前n行内容
+tail -n file 浏览file文件后n行内容
