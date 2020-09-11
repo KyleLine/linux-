@@ -5,5 +5,7 @@
 ln -s sorcefile targetfile 生成软链接
 ln sorcefile targetfile 生成硬链接
 
-硬链接和文件copy有区别。cp -p 生成的文件和源文件大小和时间一样，相当于不能同步的硬链接
-删除源文件后，软连接消失，硬链接存在
+硬链接和文件copy有区别。cp -p 生成的文件和源文件大小和时间一样，相当于不能同步的硬链接；
+删除源文件后，软连接消失，硬链接存在；
+
+对软链接ls -l后，权限为lrwxrwxrwx；而对硬链接ls -l后，权限为-rw-r--r--
